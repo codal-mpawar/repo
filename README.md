@@ -1,6 +1,33 @@
 # Testing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+This Project to display a number of persons id and name.
+
+## Create a new Project
+
+Ensure that you are not already in angular workspace folder. For example, if you have previously created the getting started             workspace, change	to the parent of that folder.
+Run new terminal on visual code. then use the commnd to create new project
+  - ng new testing
+The ng new command prompts you for information about features to include in the initial app project. Accept the defaults by pressing     the Enter or Return key.
+
+## Create class Module
+
+- ng g class Codalite
+Create the codalite class in its own file src/app folder. give it id and name properties.
+
+## Create mock-codalite class
+	- ng g class mock-codalite
+In this class import the Codalite Class and use there properties. and create a one array and set properties id and name.
+
+## create list Component
+	- ng g c list
+when you run command then generate its css, html ,spec.ts and .ts file. and its function and code in the file.
+
+## Show the list object
+Udate the binding in the template to announce the Codalite name in a details layout like this:
+	Id Name
+	1  |||||
+	2  |||||
+	3  |||||
 
 ## Development server
 
